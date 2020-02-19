@@ -5,6 +5,9 @@ import Picture from "./Picture";
 import Date from "./Date";
 import Explanation from "./Explanation";
 import Title from "./Title";
+import MediaType from "./MediaType";
+import NavBar from "./NavBar";
+import TopPageStyle from "./TopPageStyle";
 
 
 
@@ -24,10 +27,13 @@ function App() {
 
   return (
     <div className="App">
+        <NavBar />
+        <TopPageStyle/>
         <Title title={data.title} />
         <Picture data={data.hdurl}/>
         <Date date={data.date} />
         <Explanation bio={data.explanation} />
+        <MediaType media={data.media_type} />
 
     </div>
   );
