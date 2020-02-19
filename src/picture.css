@@ -1,0 +1,10 @@
+.pic-container {
+    display: flex;
+    object-fit: scale-down;
+    justify-content: center;
+
+}
+
+img {
+width: 25%;
+}
