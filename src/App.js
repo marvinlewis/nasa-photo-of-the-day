@@ -25,10 +25,11 @@ function App() {
   .catch( res => console.log('error'))}
  , [])
 
+  
+
   return (
     <div className="App">
         <NavBar />
-        <TopPageStyle/>
         <Title title={data.title} />
         <Picture data={data.hdurl}/>
         <Date date={data.date} />
