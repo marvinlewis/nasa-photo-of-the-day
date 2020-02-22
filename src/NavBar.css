@@ -1,0 +1,25 @@
+.nav_links{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 10px;
+
+}
+
+.nav_div {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 40px;
+    
+  
+    
+} 
+
+span:hover {
+color: indianred;
+
+}

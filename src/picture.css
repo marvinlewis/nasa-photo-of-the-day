@@ -1,0 +1,11 @@
+.pic-container {
+    display: flex;
+    object-fit: scale-down;
+    justify-content: center;
+    background-color: darkgray;
+
+}
+
+img {
+width:34%;
+}
